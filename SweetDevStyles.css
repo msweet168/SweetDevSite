@@ -1,5 +1,67 @@
 body {
+    background-image: url(Media/Background.png);
+    background-repeat: no-repeat;
 
+}
+
+h1 {
+
+}
+
+#HeadIcon {
+    height: 100px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#heading {
+    
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	font-size: 70px;
+    color: floralwhite;
+    text-align: center;
+}
+
+#slogan {
+    
+    margin-top: 0px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: floralwhite;
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
+
+.mainNav {
+	color: fuchsia;
+	background-color: floralwhite;
+	font-size: 25px;
+	font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+	border: 2px solid;
+	border-radius: 25px;
+    border-color: floralwhite;
+	height: 50px;
+    width: 300px;
+    margin-top: 10px;
 	
+}
 
+.mainNav:hover {
+    color: fuchsia;
+	background-color: floralwhite;
+	font-size: 25px;
+	border: 2px solid;
+	border-radius: 25px;
+    border-color: mediumpurple;
 }
