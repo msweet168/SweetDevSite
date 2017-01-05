@@ -1,7 +1,6 @@
 body {
     background-image: url(Media/Background.png);
     background-repeat: no-repeat;
-
 }
 
 h1 {
@@ -58,10 +57,11 @@ h1 {
 }
 
 .mainNav:hover {
-    color: fuchsia;
+    color: rgb(255, 100, 255);
 	background-color: floralwhite;
 	font-size: 25px;
-	border: 2px solid;
+	border: 2px;
+    border-style: solid;
 	border-radius: 25px;
-    border-color: mediumpurple;
+    border-color: black;
 }
