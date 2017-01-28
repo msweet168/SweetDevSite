@@ -7,13 +7,10 @@ body {
     background-image: url(Media/LongBackground.png);
 }
 
-#contactBody {
-    background-image: url(Media/Hand.png);
-    background-size: 100% auto;
-}
 
 h1 {
 
+    
 }
 
 #HeadIcon {
@@ -25,8 +22,7 @@ h1 {
     
 }
 
-#heading {
-    
+.heading {
     margin-top: 25px;
     margin-bottom: 10px;
     font-family: 'Nunito', sans-serif;
@@ -124,7 +120,7 @@ h1 {
 
 @media screen and (max-width:650px) {
     
-    #heading {
+    .heading {
     margin-top: 25px;
     margin-bottom: 10px;
     font-family: 'Nunito', sans-serif;
@@ -133,7 +129,6 @@ h1 {
     color: floralwhite;
     text-align: center;
   }
-
     
     #appGallery {
     display: block;
@@ -141,6 +136,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
   }
+    
 }
 
 @media screen and (max-width:440px) {
@@ -207,5 +203,96 @@ h1 {
 .backButton:hover {
     border-color:black;
 }
+
+
+#handpic {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 100px;
+}
+
+#bottomIcon {
+    display: none;
+}
+
+
+#aboutHeading {
+    text-align: left;
+    font-size: 50px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+
+#aboutSlogan {
+    font-family: 'Nunito', sans-serif;
+	font-weight:500;
+	font-size: 40px;
+    color: floralwhite;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 25px;
+    
+}
+
+#companyDesc {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: floralwhite;
+    text-align: left;
+    margin-left: 25px;
+    float: left;
+    
+}
+
+#descDiv {
+    width: 40%;
+}
+
+@media screen and (max-width:1000px) {
+    #handpic {
+        padding-right: 0px;
+    }  
+    
+    
+    #aboutHeading {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width:650px) {
+    #handpic  {
+        display: none;
+    }
+    
+    #bottomIcon {
+        display: block;
+        height: 175px;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #aboutHeading {
+        text-align: center;
+    }
+    
+    #aboutSlogan {
+        text-align: center;
+        font-size: 25px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    #descDiv {
+    width: 100%;
+        
+    }
+    
+    
+}
+
 
 
