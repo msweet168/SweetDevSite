@@ -271,6 +271,10 @@ h1 {
     margin-bottom: 15px;
 }
 
+#aboutBack:hover {
+    border-color: black;
+}
+
     
 #mySiteButton {
     color: black;
@@ -287,6 +291,11 @@ h1 {
     margin-bottom: 15px;
     margin-left: 10px;
 }
+
+#mySiteButton:hover {
+    border-color: black;
+}
+
 
 @media screen and (max-width:1000px) {
     #handpic {
