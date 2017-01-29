@@ -250,6 +250,44 @@ h1 {
     width: 40%;
 }
 
+#aboutButtonDiv {
+    float:left;
+    width: 100%;
+    margin-left: 25px;
+}
+
+#aboutBack {
+    color: black;
+    background-color: floralwhite;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: floralwhite;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+    
+#mySiteButton {
+    color: black;
+    background-color: floralwhite;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: floralwhite;
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
 @media screen and (max-width:1000px) {
     #handpic {
         padding-right: 0px;
@@ -272,11 +310,12 @@ h1 {
         padding-top: 50px;
         margin-left: auto;
         margin-right: auto;
-        
+        padding-top: 25px;
     }
     
     #aboutHeading {
         text-align: center;
+        padding-left: 0px;
     }
     
     #aboutSlogan {
@@ -291,7 +330,26 @@ h1 {
         
     }
     
+    #aboutButtonDiv {
+        margin-left: 0px;
+    }
     
+    #aboutBack {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    
+    #mySiteButton {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
+        
 }
 
 
