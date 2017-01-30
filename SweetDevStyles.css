@@ -308,7 +308,7 @@ h1 {
   }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:750px) {
     #handpic  {
         display: none;
     }
@@ -359,6 +359,92 @@ h1 {
         margin-bottom: 30px;
     }
         
+}
+
+#phonePic {
+    float: right;
+    height: 300px;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+#contactHeading {
+    text-align: left;
+    font-size: 50px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+
+#contactDesc {
+    font-family: 'Nunito', sans-serif;
+	font-weight:500;
+	font-size: 30px;
+    color: floralwhite;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#contactDesc2{
+    font-family: 'Nunito', sans-serif;
+	font-weight:500;
+	font-size: 30px;
+    color: floralwhite;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+#contactInfo {
+    font-family: 'Nunito', sans-serif;
+	font-weight:500;
+	font-size: 20px;
+    color: floralwhite;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#contactItalic {
+    font-family: 'Nunito', sans-serif;
+	font-weight:500;
+	font-size: 20px;
+    font-style: italic;
+    color: floralwhite;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+#contactBack {
+    color: black;
+    background-color: floralwhite;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: floralwhite;
+    height: 40px;
+    width: 100px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+#messageButton {
+    color: black;
+    background-color: floralwhite;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: floralwhite;
+    height: 40px;
+    width: 160px;
+    margin-bottom: 20px;
 }
 
 
