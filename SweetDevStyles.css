@@ -433,6 +433,10 @@ h1 {
     margin-top: 15px;
 }
 
+#contactBack:hover {
+    border-color: black;
+}
+
 #messageButton {
     color: black;
     background-color: floralwhite;
@@ -445,6 +449,31 @@ h1 {
     height: 40px;
     width: 160px;
     margin-bottom: 20px;
+}
+
+#messageButton:hover {
+    border-color: black;
+}
+
+#formBack {
+    color: black;
+    background-color: floralwhite;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: white;
+    height: 40px;
+    width: 90px;
+    margin-bottom: 0px;
+    float:left;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+#formBack:Hover {
+    border-color:black;
 }
 
 
