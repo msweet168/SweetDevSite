@@ -417,6 +417,16 @@ h1 {
     margin-left: 25px;
 }
 
+@media screen and (max-width:750px) {
+    #phonePic {
+        display: none;
+    }
+    
+    #contactDesc2 {
+        font-size: 25px;
+    }
+}
+
 #contactBack {
     color: black;
     background-color: floralwhite;
